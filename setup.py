@@ -21,7 +21,7 @@ test_required = [
 ]
 
 setup(
-    name="zappa",
+    name="zappa-warm",
     version=__version__,
     packages=["zappa"],
     install_requires=required,
@@ -32,9 +32,9 @@ setup(
     description="Server-less Python Web Services for AWS Lambda and API Gateway",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/zappa/Zappa",
-    author="Rich Jones",
-    author_email="rich@openwatch.net",
+    url="https://github.com/Mealing-dev/Zappa",
+    author="Knewnew Developers",
+    author_email="dev.knewnew@gmail.com",
     entry_points={
         "console_scripts": [
             "zappa=zappa.cli:handle",
